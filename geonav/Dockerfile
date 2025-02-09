@@ -19,7 +19,7 @@ RUN . /opt/ros/iron/setup.sh \
     &&  apt autoremove -y \
     &&  rm -rf /var/lib/apt/lists/*
 
-COPY workspace/nav2_gps_waypoint_follower_demo/ /home/nav2_gps_ws/src
+COPY ./ /home/nav2_gps_ws/src
 
 RUN . /opt/ros/iron/setup.sh \
     && apt-get update \
