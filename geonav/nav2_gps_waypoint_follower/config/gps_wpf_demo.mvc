@@ -22,7 +22,7 @@ displays:
       visible: true
       collapsed: false
       custom_sources:
-        - base_url: https://atlas.microsoft.com/map/tile?api-version=2024-04-01&tilesetId=microsoft.imagery&zoom={level}&x={x}&y={y}&subscription-key=o8sIKzRapZN4XvkPbIVzamlJ4fWamrQWFDpPyBba8KBlXqspfBl4JQQJ99BAACrJL3JKHJYEAAAgAZMP1yw7
+        - base_url: https://atlas.microsoft.com/map/tile?api-version=2024-04-01&tilesetId=microsoft.imagery&zoom={level}&x={x}&y={y}&subscription-key=
           max_zoom: 19
           name: Azure Maps
           type: wmts
